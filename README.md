@@ -83,3 +83,25 @@ Yolo가 점점 발전해오면서 오른쪽 표처럼 yolo3의 모델이 걸린 
 #### 2) 헬멧 탐지 알고리즘:
 1) PMD 탑승자 객체와 헬멧 객체를 따로 학습한 후, 헬멧을 쓴 객체는 두 개의 bounding box가 쳐지며, 헬멧을 쓰지 않은 객체는 하나의 bounding box로 식별됩니다.
 2) 헬멧 객체와 PMD 탑승자 객체 간의 거리를 계산하여, 헬멧을 쓰지 않은 탑승자를 헬멧 미착용 위반으로 판단합니다.
+
+
+
+## 프로젝트 결과
+
+---
+
+1. 세그멘테이션을 통해 도로 지형지물을 정확하게 탐지하고, YOLOv8를 사용하여 개인형 이동장치를 탐지합니다.
+2. 위반 탐지 결과 및 표시를 이미지에 표시해줍니다.
+
+---
+
+**1) 결과 예시**
+
+<img src="https://cdn.discordapp.com/attachments/1144192540531228734/1147932344490147950/C000003_082_0090_C_N_F_0_jpg.rf.aa0fe1c5b31d0ee8053e610cd2154e2a.jpg?ex=66370c0e&is=6635ba8e&hm=0c69a6988d3709b25e05f34f28a93608ed6ed572138afb5da36fee94ec021e80&" width="400">
+오토바이 도로 주행
+
+<img src="https://cdn.discordapp.com/attachments/1144192540531228734/1147932037924270140/C000042_075_0104_C_D_F_0_jpg.rf.762f7be12682fed3f68cacd042e8bdcb.jpg?ex=66370bc5&is=6635ba45&hm=3a5842d204964883e78289aa667279b8057a5a243ba70a93c0e2ae8d08ac7100&" width="400">
+자전거 도로 주행 및 헬멧 미착용
+
+<img src="https://cdn.discordapp.com/attachments/1144192540531228734/1147932245043195954/C000006_103_0130_C_D_F_0_jpg.rf.ef3075b9a790eacf55e4853f57d1d86e.jpg?ex=66370bf6&is=6635ba76&hm=c3ec31c82a2878a236b7603099837f3e01d1d2701a10cca0aa6c9de36c10e522&" width="400"> 
+자전거 도로 주행 및 헬멧 미착용
