@@ -119,12 +119,17 @@ Yolo가 점점 발전해오면서 오른쪽 표처럼 yolo3의 모델이 걸린 
 자전거 도로 주행 및 헬멧 미착용
 
 <img src="https://cdn.discordapp.com/attachments/1144192540531228734/1147932245043195954/C000006_103_0130_C_D_F_0_jpg.rf.ef3075b9a790eacf55e4853f57d1d86e.jpg?ex=66370bf6&is=6635ba76&hm=c3ec31c82a2878a236b7603099837f3e01d1d2701a10cca0aa6c9de36c10e522&" width="400"> 
+
 자전거 도로 주행 및 헬멧 미착용
 
+
 <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/5126d514-6644-4e11-8621-749b0b34aefb" width=400>
+
 오토바이 정지선 위반 및 횡단보도 주행
 
+
 <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/a3ab4254-9861-4060-bb80-de413fb0fd72" width=400>
+
 오토바이 정지선 위반 및 신호위반
 
 
