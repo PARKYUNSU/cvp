@@ -84,6 +84,21 @@ Yolo가 점점 발전해오면서 오른쪽 표처럼 yolo3의 모델이 걸린 
 1) PMD 탑승자 객체와 헬멧 객체를 따로 학습한 후, 헬멧을 쓴 객체는 두 개의 bounding box가 쳐지며, 헬멧을 쓰지 않은 객체는 하나의 bounding box로 식별됩니다.
 2) 헬멧 객체와 PMD 탑승자 객체 간의 거리를 계산하여, 헬멧을 쓰지 않은 탑승자를 헬멧 미착용 위반으로 판단합니다.
 
+**1) 도로지형지물 Segmentation 탐지**
+
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/033a63bf-e989-4f3e-abf6-eeb2552b23a0)![C000063_024_0012_C_D_F_0_jpg rf 397c33da0befa57813096f14aa4c2a71" width=420><img src="https://github.com/PARKYUNSU/cvp/assets/125172299/4850ec32-411c-4b8d-a633-e457469634f6)![C000057_049_0168_C_D_R_0_jpg rf 96822a287a2269b96b6ddf8b55397525" width=250><img src="https://github.com/PARKYUNSU/cvp/assets/125172299/75c5f8e5-3941-44e0-9413-1493b9467a7e" width=250>
+
+---
+
+**2) 도로지형지물과 객체 탐지**
+
+
+
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/07c100d6-3fcd-4d3b-8b97-6f5c4760a9f7" width=370>
+
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/672aefd4-e73d-4f95-b3c5-c05184eb75bb" width=250>
+
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/5c4b633e-5d26-4662-acc8-6573246cba12" width=250>
 
 
 ## 프로젝트 결과
@@ -105,3 +120,11 @@ Yolo가 점점 발전해오면서 오른쪽 표처럼 yolo3의 모델이 걸린 
 
 <img src="https://cdn.discordapp.com/attachments/1144192540531228734/1147932245043195954/C000006_103_0130_C_D_F_0_jpg.rf.ef3075b9a790eacf55e4853f57d1d86e.jpg?ex=66370bf6&is=6635ba76&hm=c3ec31c82a2878a236b7603099837f3e01d1d2701a10cca0aa6c9de36c10e522&" width="400"> 
 자전거 도로 주행 및 헬멧 미착용
+
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/5126d514-6644-4e11-8621-749b0b34aefb" width=400>
+오토바이 정지선 위반 및 횡단보도 주행
+
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/a3ab4254-9861-4060-bb80-de413fb0fd72" width=400>
+오토바이 정지선 위반 및 신호위반
+
+
