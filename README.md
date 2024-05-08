@@ -111,25 +111,17 @@ Yolo가 점점 발전해오면서 오른쪽 표처럼 yolo3의 모델이 걸린 
 ---
 
 **1) 결과 예시**
-
-<img src="https://cdn.discordapp.com/attachments/1144192540531228734/1147932344490147950/C000003_082_0090_C_N_F_0_jpg.rf.aa0fe1c5b31d0ee8053e610cd2154e2a.jpg?ex=66370c0e&is=6635ba8e&hm=0c69a6988d3709b25e05f34f28a93608ed6ed572138afb5da36fee94ec021e80&" width="400">
-오토바이 도로 주행
-
-<img src="https://cdn.discordapp.com/attachments/1144192540531228734/1147932037924270140/C000042_075_0104_C_D_F_0_jpg.rf.762f7be12682fed3f68cacd042e8bdcb.jpg?ex=66370bc5&is=6635ba45&hm=3a5842d204964883e78289aa667279b8057a5a243ba70a93c0e2ae8d08ac7100&" width="400">
-자전거 도로 주행 및 헬멧 미착용
-
-<img src="https://cdn.discordapp.com/attachments/1144192540531228734/1147932245043195954/C000006_103_0130_C_D_F_0_jpg.rf.ef3075b9a790eacf55e4853f57d1d86e.jpg?ex=66370bf6&is=6635ba76&hm=c3ec31c82a2878a236b7603099837f3e01d1d2701a10cca0aa6c9de36c10e522&" width="400"> 
-
-자전거 도로 주행 및 헬멧 미착용
+|                            |                              |                              |
+|----------------------------|------------------------------|------------------------------|
+| 자전거 도로 주행 및 헬멧 미착용 | 오토바이 횡단보도 주행 및 정지선 위반 | 오토바이 정지선 위반        |
+| 오토바이 도로 주행         | 오토바이 도로 주행           | 자전거 도로 주행 및 헬멧 미착용 |
 
 
-<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/5126d514-6644-4e11-8621-749b0b34aefb" width=400>
-
-오토바이 정지선 위반 및 횡단보도 주행
-
-
-<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/a3ab4254-9861-4060-bb80-de413fb0fd72" width=400>
-
-오토바이 정지선 위반 및 신호위반
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/2950cd9c-a0df-4176-b411-1f75bf84c52f" width="250">
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/5126d514-6644-4e11-8621-749b0b34aefb" width=250>
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/a3ab4254-9861-4060-bb80-de413fb0fd72" width=250>
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/dfe4116c-3ca6-4460-a287-5dbd1fb60d4c" width=250>
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/4d8b3876-372a-4a63-8dde-96ae94b5302a" width=250>
+<img src="https://github.com/PARKYUNSU/cvp/assets/125172299/b5b23f41-132a-4fc7-8c57-827e3cdb72f5" width=250>
 
 
