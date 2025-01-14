@@ -1,15 +1,10 @@
 # 개인형 이동장치 교통법규 위반 탐지 : Segmentation 객체탐지와 알고리즘을 활용한 위반 탐지
 (Detection of Personal Mobility Traffic Violations: Violation Detection Utilizing Segmentation Object Detection and Algorithms)
 
----
-
 ## 프로젝트 개요
-
----
 
 도시 교통환경 변화로 개인형 이동장치의 교통사고와 법규 위반 문제가 증가하고 있습니다. 이에 대응하기 위해 CCTV 이미지를 활용하여 개인형 이동장치의 교통 법규 위반을 탐지하고 사용자에게 알리는 프로젝트입니다.
 
----
 
 ## 역할
 
@@ -19,32 +14,24 @@
 |박재현| YOLOv8 조사, 데이터 전처리, 모델링, 알고리즘, 웹페이지|
 |주형진| YOLOv7 조사, 데이터 전처리, SAM, 모델링, 알고리즘, 웹페이지|
 
----
 ## 프로젝트 목표
-
----
 
 1. 객체 간 거리와 상관 관계를 분석하여 교통 법규 위반을 탐지합니다.
 2. 모델(YOLOv8)을 사용하여 위반을 탐지합니다.
 
 ## 아키텍처
 
----
 
 <img width="500" alt="스크린샷 2024-05-04 오후 3 53 05" src="https://github.com/PARKYUNSU/cvp/assets/125172299/3008bce2-e02a-4854-b95c-45b572bec84e">
 
 
 ## 프로젝트 수행 절차
 
----
-
 1. AI HUB에서 데이터를 받아 전처리를 진행합니다.
 2. SAM과 JSON 데이터를 사용하여 도로 지형지물을 YOLOv8 세그멘테이션으로 학습합니다.
 3. 학습을 위한 각 객체의 세그멘테이션 좌표 및 Bbox 좌표에 대해서 손수 라벨링 작업을합니다.
 4. YOLOv8로  객체를 학습시킵니다.
 5. 학습된 모델을 플라스크로 구현하여 도로와 개인형 이동장치 사이의 알고리즘을 통해 교통 법규 위반을 탐지합니다.
-
----
 
 ## 모델 설명
 
@@ -88,11 +75,8 @@ Yolo가 점점 발전해오면서 오른쪽 표처럼 yolo3의 모델이 걸린 
 
 <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/033a63bf-e989-4f3e-abf6-eeb2552b23a0)![C000063_024_0012_C_D_F_0_jpg rf 397c33da0befa57813096f14aa4c2a71" width=420><img src="https://github.com/PARKYUNSU/cvp/assets/125172299/4850ec32-411c-4b8d-a633-e457469634f6)![C000057_049_0168_C_D_R_0_jpg rf 96822a287a2269b96b6ddf8b55397525" width=250><img src="https://github.com/PARKYUNSU/cvp/assets/125172299/75c5f8e5-3941-44e0-9413-1493b9467a7e" width=250>
 
----
 
 **2) 도로지형지물과 객체 탐지**
-
-
 
 <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/07c100d6-3fcd-4d3b-8b97-6f5c4760a9f7" width=370>
 
@@ -108,6 +92,7 @@ Yolo가 점점 발전해오면서 오른쪽 표처럼 yolo3의 모델이 걸린 
 
 
 ## Result
+
 | <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/2950cd9c-a0df-4176-b411-1f75bf84c52f" width="250"><br>자전거 도로 주행 및 헬멧 미착용 | <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/5126d514-6644-4e11-8621-749b0b34aefb" width="250"><br>오토바이 횡단보도 주행 및 정지선 위반 |
 |-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/a3ab4254-9861-4060-bb80-de413fb0fd72" width="250"><br>오토바이 정지선 위반 | <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/dfe4116c-3ca6-4460-a287-5dbd1fb60d4c" width="250"><br>오토바이 도로 주행 |
