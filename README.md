@@ -115,5 +115,3 @@ Yolo가 점점 발전해오면서 오른쪽 표처럼 yolo3의 모델이 걸린 
 | <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/a3ab4254-9861-4060-bb80-de413fb0fd72" width="250"><br>오토바이 정지선 위반 | <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/dfe4116c-3ca6-4460-a287-5dbd1fb60d4c" width="250"><br>오토바이 도로 주행 |
 | <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/4d8b3876-372a-4a63-8dde-96ae94b5302a" width="250"><br>자전거 도로 주행 및 헬멧 미착용 | <img src="https://github.com/PARKYUNSU/cvp/assets/125172299/b5b23f41-132a-4fc7-8c57-827e3cdb72f5" width="250"><br>오토바이 도로 주행 |
 
-
-
