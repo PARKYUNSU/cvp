@@ -1,5 +1,5 @@
 # 개인형 이동장치 교통법규 위반 탐지 : Segmentation 객체탐지와 알고리즘을 활용한 위반 탐지
-(Detection of Personal Mobility Traffic Violations: Violation Detection Utilizing Segmentation Object Detection and Algorithms)
+(PM Violation Detection: Violation Detection Utilizing Segmentation Object Detection and Algorithms)
 
 ## 프로젝트 개요
 
